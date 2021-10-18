@@ -11,7 +11,7 @@ class FeedController extends Controller
 
     public function index()
     {   
-        $posts = Post::orderBy('updated_at','desc')->get();
+        $posts = Post::latest()->take(10)->get();
         return view('feed.index')->with('posts',$posts);
     }
 
