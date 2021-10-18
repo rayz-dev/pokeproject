@@ -1,0 +1,16 @@
+/bootstrap/compiled.php
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+storage/*.key
+.env
+.env.local
+.DS_Store
+Thumbs.db
+composer.phar
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
