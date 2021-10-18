@@ -58,3 +58,9 @@ Some functionality to include in the future can be:
 - Able to not only vote but comment team publications.
 - Feed filter (most trending, most liked, most recent...)
 - Sync the application with a real Pokémon videogame.
+
+---
+
+<p align="center" font-size="10px">
+    <sub><sup>All content & design © Pokémon Database, 2008-2021. Pokémon images & names © 1995-2021 Nintendo/Game Freak.</sup></sub>
+</p>
