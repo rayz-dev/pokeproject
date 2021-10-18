@@ -315,7 +315,13 @@ body {
 }
 
 
-
+/* ------------------------------------------- SECTION: FOOTER */
+footer {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+}
 
 
 /* -------------------------------------------- SECTION: LOGIN */
