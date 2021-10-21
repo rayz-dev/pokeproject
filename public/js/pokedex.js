@@ -1,5 +1,4 @@
 $(window).load(function() {
-
     // Loading
     $('.pokemon-container').ready(function(){
         $('.loading').css('display','none');

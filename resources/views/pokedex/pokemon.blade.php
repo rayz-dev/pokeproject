@@ -92,7 +92,7 @@
             </div>
 
             <div class="row justify-content-center mb-5">
-                <div class="col-12 col-md-7 align-self-center">
+                <div class="col-12 col-md-7 align-self-center px-0">
                     <div class="row justify-content-center align-items-end stats">
                         @foreach ($pokemon["stats"] as $i => $stat)
                             @php
@@ -141,4 +141,5 @@
         </div>
     </div>
 </div>
+
 @endsection

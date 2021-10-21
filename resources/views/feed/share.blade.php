@@ -50,10 +50,8 @@
                 <div class="row justify-content-center">
                     <a href="{{route('feed')}}" class="text-secondary"> <i class="fas fa-undo-alt mr-2"></i>Back to feed</a>
                 </div>
-
-            
-
         </div>
     </div>
 </div>
+
 @endsection

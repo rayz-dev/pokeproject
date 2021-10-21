@@ -14,7 +14,7 @@
     </head>
 
 <body>
-    <div class="container h-100 pt-5" id="login-container">
+    <div class="container pt-5" id="login-container">
         <div class="row justify-content-center align-items-center h-100">
             <div class="col-10 col-md-7 col-lg-6 col-xl-5">
                 <div class="row mb-4">
@@ -108,4 +108,7 @@
             </div>
         </div>
     </div>
+    <footer class="col-12 text-center">
+        All content &amp; design © Pokémon Database, 2008-2021. Pokémon images &amp; names © 1995-2021 Nintendo/Game Freak.
+    </footer>
 </body>

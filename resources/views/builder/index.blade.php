@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container flex-column flex-grow-1 h-100" id="builder-container">
+<div class="container flex-column flex-grow-1 h-100 mt-5" id="builder-container">
 
     <div class="row">
         <img src="{{asset('images/content/pokeball.png')}}" alt="Pokeball" class="img-fluid m-auto pokeball-medium loading">
@@ -67,4 +67,5 @@
         </div>
     </div>
 </div>
+
 @endsection

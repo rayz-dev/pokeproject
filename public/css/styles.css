@@ -163,7 +163,6 @@ i[class*='poke-']{
 /* -------------------------------------------- GENERAL STYLES */
 
 body {
-    height: 0;
     min-height: 100vh;
 }
 
@@ -314,19 +313,20 @@ body {
     display: none;
 }
 
-
 /* ------------------------------------------- SECTION: FOOTER */
 footer {
-    position: absolute;
-    width: 100%;
-    margin: 0 auto;
-    bottom: 0;
+    font-size: 60%;
 }
 
-
 /* -------------------------------------------- SECTION: LOGIN */
-
 #login-container {
+    height: 0;
+    min-height: 96vh;
+}
+
+#register-container, #error-container {
+    height: 0;
+    min-height: 100vh;
     transform: translateY(-5%);
 }
 
@@ -338,6 +338,11 @@ footer {
 
 #pokedex-container {
     font-size: 1.5rem;
+    min-height: 80.5vh;
+}
+
+#pokemon-container {
+    min-height: 80.5vh;
 }
 
 #pokedex-container a.generation:hover img {
@@ -367,6 +372,10 @@ footer {
 } */
 
 /* ------------------------------------------- SECTION: BUILDER */
+#builder-container {
+    min-height: 78vh;
+}
+
 .pokemon-teams .gear {
     max-height: 44px;
     opacity: 0.2;
@@ -426,6 +435,9 @@ footer {
 }
 
 /* ------------------------------------------- SECTION: PROFILE */
+#profile-container {
+    min-height: 83vh;
+}
 
 #profile-container .gear {
     max-width: 34px;
@@ -446,6 +458,10 @@ footer {
 }
 
 /* ------------------------------------------- SECTION: FEED */
+#feed-container {
+    min-height: 83vh;
+}
+
 #feed-container .post-user {
     position: absolute;
     left: 0;
@@ -487,6 +503,10 @@ footer {
 }
 
 /* ------------------------------------------- SECTION: USER GUIDE */
+#guide-container {
+    min-height: 83vh;
+}
+
 #guide-container .pokeball-medium {
     width: 30px;
 }

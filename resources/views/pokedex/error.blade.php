@@ -13,7 +13,7 @@
     </head>
 
 <body>
-    <div class="container h-100" id="error-container">
+    <div class="container" id="error-container">
         <div class="row justify-content-center align-items-center h-100">
             <div class="col-10 col-md-7 col-lg-6 col-xl-5">
                 <div class="row mb-4">

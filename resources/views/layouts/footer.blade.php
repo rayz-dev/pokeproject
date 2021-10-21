@@ -1,7 +1,3 @@
-<footer class="text-center">
-    <small>All content & design © Pokémon Database, 2008-2021. Pokémon images & names © 1995-2021 Nintendo/Game Freak.</small>
-</footer>
-
 @if (Request::is('pokedex*') || Request::is('builder/create') || Request::is('builder/manage') ||Request::is('builder') || Request::is('account/config') || Request::is('feed*'))
 
     <script src="{{ asset('js/pokedex.js') }}"></script>

@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container h-100 pt-5" id="register-container">
+    <div class="container pt-5" id="register-container">
         <div class="row justify-content-center align-items-center h-100">
             <div class="col-10 col-md-8 col-lg-6 col-xl-5">
                 
